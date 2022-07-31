@@ -2,13 +2,26 @@ html, body {
   height: 100%;
   width: 100%;
 }
+*{
+  background-color: pink;
+}
 h1{
   background-color: aqua;
 }
 h2{
-  background-color: pink;
+  text-align: center;
 }
-.center {
+h1{
+  text-align: center;
+}
+
+.center1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.center2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
